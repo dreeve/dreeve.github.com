@@ -1,0 +1,95 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  background-color: #022038;
+}
+h1, h2 {
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+div.body-container {
+}
+
+
+div.card {
+  background-color: #EAE6E3;
+  margin: 0 auto;
+  width: 290px;
+  height: 168px;
+}
+
+div.flair {
+  font-size: 5em;
+  float: left;
+  width: 40px;
+  color: #ABC2D0;
+  height: 100%;
+  background-color: #022038;
+}
+
+div.text {
+  float: left;
+  width: 240px;
+  color: #3e3f41;
+  text-align: right;
+  padding: 10px 8px 10px 0px;
+}
+
+div.card div.description {
+  margin: 10px 0px 10px 0px;
+}
+
+div.card div.description .title {
+  font-weight: bold;
+}
+
+a {
+  color: #2a718f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ABC2D0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.icon {
+  display: block;
+  float: left;
+  text-indent: -9999em;
+  text-align: left;
+  height: 32px;
+  width: 32px;
+  margin-left: 8px;
+}
+
+a#linkedin{
+  background: url('images/linkedin.png') transparent no-repeat 0 0;
+}
+
+a#twitter {
+  background: url('images/twitter-2.png') transparent no-repeat 0 0;
+}
+
+a#flickr {
+  background: url('images/flickr.png') transparent no-repeat 0 0;
+}
+
+a#amazon {
+  background: url('images/amazon.png') transparent no-repeat 0 0;
+}
+
+a#github {
+  background: url('images/github.png') transparent no-repeat 0 0;
+}
+
+a#googleplus {
+  background: url('images/google-plus-black.png') transparent no-repeat 0 0;
+}
